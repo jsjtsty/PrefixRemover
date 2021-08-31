@@ -43,7 +43,7 @@ namespace stdext {
 
 	bool is_all_ascii(const std::wstring& _val)
 	{
-		for (const char c : _val) {
+		for (const wchar_t c : _val) {
 			if (!isascii(c)) {
 				return false;
 			}
